@@ -61,7 +61,7 @@ elif crime == 'Robbery':
     lat = st.slider('Select latitude', min_value=34.0, max_value=35.0, step=0.01)
     lon = st.slider('Select longitude', min_value=-119.0, max_value=-118.0, step=0.01)
     if st.button("Predecir"):
-        with (open(r"../models/best_model_robbery.pk", "rb")) as openfile:
+        with (open(r"../models/model_robbery.pk", "rb")) as openfile:
          model = load(openfile)
         row = [lon,lat]
         array=np.array(row)
