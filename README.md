@@ -23,3 +23,4 @@ For the model developpment we have created 10 groups of LA gangs/profiles (k=10)
 
 
 This project is deployed on render. URL: https://la-crime-analysis-oqan.onrender.com
+This project is deployed on [here](https://la-crime-analysis-oqan.onrender.com)
